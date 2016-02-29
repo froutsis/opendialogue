@@ -1,0 +1,3 @@
+function init_widget(params){
+	document.getElementById("conswd").innerHTML='<iframe src="http://dev.greekspect.com/cons/?wdg='+params[0]+'&num='+params[2]+'" width="'+params[3]+'" height="'+params[4]+'" style="position: static; visibility: visible; display: inline-block;  padding: 0px; border: none; max-width: 100%; min-width: 200px; margin-top: 0px; margin-bottom: 0px; min-height: 300px;" border="0"></iframe>';
+}
